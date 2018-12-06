@@ -3,9 +3,9 @@
 ### description
 
 Group members
-1. Berber
-1. Maud
-1. Hannah
-1. Pleun
-1. Maartje
-1. Renske
+1. Berber --> Architect
+1. Maud --> Backend developer
+1. Hannah -->  Product owner
+1. Pleun --> Frontend developer
+1. Maartje --> Frontend developer
+1. Renske --> Documentation
