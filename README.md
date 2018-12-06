@@ -2,7 +2,7 @@
 
 ### description
 
-1. Group members
+Group members
 1. Berber
 1. Maud
 1. Hannah
