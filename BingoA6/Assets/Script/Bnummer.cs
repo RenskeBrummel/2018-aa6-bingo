@@ -13,7 +13,7 @@ public class Bnummer : MonoBehaviour {
 		vak_nummer = Random.Range(1,14);
 		// vak_aanduiding = "B" + vak_nummer;
 		vak_aanduiding = gameObject.GetComponentInChildren(typeof(TextMesh)) as TextMesh;
-		vak_aanduiding.text = "B" + vak_nummer;
+		vak_aanduiding.text = "" + vak_nummer;
 	}
 	
 	// Update is called once per frame
