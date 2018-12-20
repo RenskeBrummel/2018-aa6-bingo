@@ -4,9 +4,13 @@ using UnityEngine;
 
 public class ButtonRad : MonoBehaviour {
 
-private void button1_Click(object sender, EventArgs e) 
-	 {
-            textBox1.Text = "a";
-        }
+private int bal_nummer;
 
+private TextMesh bal_aanduiding;
+
+void Start() {
+	bal_nummer = Random.Range(1,70);
+	bal_aanduiding = gameObject.GetComponentInChildren(typeof(TextMesh)) as TextMesh;
+		bal_aanduiding.text = "X" + bal_nummer;
+}
 }
