@@ -11,6 +11,6 @@ private TextMesh bal_aanduiding;
 void Start() {
 	bal_nummer = Random.Range(1,70);
 	bal_aanduiding = gameObject.GetComponentInChildren(typeof(TextMesh)) as TextMesh;
-		bal_aanduiding.text = "X" + bal_nummer;
+		bal_aanduiding.text = "" + bal_nummer;
 }
 }
