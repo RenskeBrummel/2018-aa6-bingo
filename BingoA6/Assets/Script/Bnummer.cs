@@ -4,13 +4,16 @@ using UnityEngine;
 
 public class Bnummer : MonoBehaviour {
 
-	public string vak_aanduiding;
+	//public string vak_aanduiding;
 	private int vak_nummer;
+	private TextMesh vak_aanduiding;
  
 	// Use this for initialization
 	void Start () {
 		vak_nummer = Random.Range(1,14);
-		vak_aanduiding = "B" + vak_nummer;
+		// vak_aanduiding = "B" + vak_nummer;
+		vak_aanduiding = gameObject.GetComponentInChildren(typeof(TextMesh)) as TextMesh;
+		vak_aanduiding.text = "B" + vak_nummer;
 	}
 	
 	// Update is called once per frame
