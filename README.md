@@ -8,4 +8,4 @@ Group members
 1. Hannah -->  Product owner
 1. Pleun --> Frontend developer
 1. Maartje --> Frontend developer
-1. Renske --> Documentation
+1. Renske --> Head documentation [To the documentation](https://github.com/RenskeBrummel/RenskeBrummel.github.io/wiki)
