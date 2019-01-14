@@ -7,6 +7,7 @@ public class ButtonRad : MonoBehaviour {
 private int bal_nummer;
 
 private TextMesh bal_aanduiding;
+private gameObject cube;
 
 void Start() {
 	bal_nummer = Random.Range(1,70);

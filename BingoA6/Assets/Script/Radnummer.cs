@@ -4,14 +4,14 @@ using UnityEngine;
 
 public class Radnummer : MonoBehaviour {
 
-	//public string vak_aanduiding;
+	
 	private int rad_nummer;
 	private TextMesh rad_aanduiding;
  
-	// Use this for initialization
+	 
 	void Start () {
 		rad_nummer = Random.Range(1,70);
-		// vak_aanduiding = "B" + vak_nummer;
+		// Dit zorgt er voor dat hij een getal tussen 1 en 70 laat zien.
 		rad_aanduiding = gameObject.GetComponentInChildren(typeof(TextMesh)) as TextMesh;
 		if  (rad_nummer < 15 && rad_nummer > 1){
 			rad_aanduiding.text = "B" + rad_nummer;
@@ -25,11 +25,7 @@ public class Radnummer : MonoBehaviour {
 			rad_aanduiding.text = "O" + rad_nummer;
 		}
 	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
+	// Dit zorgt er voor dat de getallen die bv. in de B rij staan ook de letter B voor het getal krijgen.
 }
 
 
