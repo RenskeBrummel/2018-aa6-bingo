@@ -29,5 +29,3 @@ public Color color;
 // Dit zorgt er voor, dat de vakjes een geel kleurtje krijgen als je er op klikt, zodat je ze kn afvinken.
 }
 }
-
-
